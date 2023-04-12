@@ -2,7 +2,7 @@
   "name": "smooth",
   "displayName": "Smooth Theme",
   "description": "Aesthetically pleasing dark theme, easy on the eyes throughout the day even during night times.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
