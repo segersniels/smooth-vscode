@@ -1,0 +1,25 @@
+{
+  "name": "smooth",
+  "displayName": "Smooth Theme",
+  "description": "Aesthetically pleasing dark theme, easy on the eyes throughout the day even during night times.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/segersniels/smooth-vscode"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Smooth Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/smooth-color-theme.json"
+      }
+    ]
+  }
+}
