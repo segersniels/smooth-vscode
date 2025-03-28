@@ -1,8 +1,8 @@
 {
   "name": "smooth",
   "displayName": "Smooth Theme",
-  "description": "Aesthetically pleasing dark theme, easy on the eyes throughout the day even during night times.",
-  "version": "0.0.2",
+  "description": "Aesthetically pleasing dark and light themes, easy on the eyes throughout the day even during night times.",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -17,10 +17,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Smooth Theme",
+        "label": "Smooth (dark)",
         "uiTheme": "vs-dark",
-        "path": "./themes/smooth-color-theme.json"
+        "path": "./themes/smooth-dark.json"
+      },
+      {
+        "label": "Smooth (light)",
+        "uiTheme": "vs",
+        "path": "./themes/smooth-light.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@eslint/json": "^0.11.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
   }
 }
